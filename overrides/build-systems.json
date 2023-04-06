@@ -3749,7 +3749,8 @@
     "setuptools"
   ],
   "ddtrace": [
-    "cython"
+    "cython",
+    "setuptools"
   ],
   "deal": [
     "flit-core",
