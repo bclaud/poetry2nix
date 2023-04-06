@@ -494,6 +494,7 @@ lib.composeManyExtensions [
       });
 
       ddtrace = super.ddtrace.overridePythonAttrs (old: {
+        preferWheel = true;
         buildInputs = (old.buildInputs or [ ]) ++
           (lib.optionals pkgs.stdenv.isDarwin [ pkgs.darwin.IOKit ]);
       });
