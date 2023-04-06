@@ -10366,6 +10366,9 @@
       "from": "0.34b0"
     }
   ],
+  "opentelemetry-exporter-otlp-proto-grpc": [
+    "hatchling"
+  ],
   "opentelemetry-instrumentation": [
     {
       "buildSystem": "setuptools",
