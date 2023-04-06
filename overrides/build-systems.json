@@ -10416,6 +10416,12 @@
       "from": "0.34b0"
     }
   ],
+  "opentelemetry-instrumentation-dbapi": [
+    {
+      "buildSystem": "hatchling",
+      "from": "0.34b0"
+    }
+  ],
   "opentelemetry-proto": [
     {
       "buildSystem": "setuptools",
