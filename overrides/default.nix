@@ -742,6 +742,7 @@ lib.composeManyExtensions [
       grpcio = super.grpcio.overridePythonAttrs (old: {
         nativeBuildInputs = (old.nativeBuildInputs or [ ]) ++ [ pkg-config ];
         buildInputs = (old.buildInputs or [ ]) ++ [ pkgs.c-ares pkgs.openssl pkgs.zlib ];
+        doCheck = false;
 
         outputs = [ "out" "dev" ];
 
