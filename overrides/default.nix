@@ -496,6 +496,7 @@ lib.composeManyExtensions [
       ddtrace = super.ddtrace.overridePythonAttrs (old: {
         buildInputs = (old.buildInputs or [ ]) ++
           (lib.optionals pkgs.stdenv.isDarwin [ pkgs.darwin.IOKit ]);
+        propagatedBuildInputs = (old.propagatedBuildInputs or [ ]) ++ [ self.setuptools ];
       });
 
       dictdiffer = super.dictdiffer.overridePythonAttrs (

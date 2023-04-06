@@ -3750,6 +3750,7 @@
   ],
   "ddtrace": [
     "cython",
+    "setuptools",
     "setuptools-scm"
   ],
   "deal": [
