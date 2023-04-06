@@ -10428,6 +10428,12 @@
       "from": "0.34b0"
     }
   ],
+  "opentelemetry-instrumentation-psycopg2": [
+    {
+      "buildSystem": "hatchling",
+      "from": "0.34b0"
+    }
+  ],
   "opentelemetry-proto": [
     {
       "buildSystem": "setuptools",
