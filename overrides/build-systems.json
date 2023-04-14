@@ -8248,6 +8248,9 @@
   "latexify-py": [
     "hatchling"
   ],
+  "launchdarkly-server-sdk": [
+    "setuptools"
+  ],
   "launchpadlib": [
     "setuptools"
   ],
