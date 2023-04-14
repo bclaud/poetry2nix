@@ -3743,7 +3743,8 @@
     "setuptools"
   ],
   "ddsketch": [
-    "setuptools"
+    "setuptools",
+    "setuptools-scm"
   ],
   "ddt": [
     "setuptools"
