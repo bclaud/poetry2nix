@@ -2604,6 +2604,13 @@ lib.composeManyExtensions [
         }
       );
 
+      urllib3 = super.urllib3.overridePythonAttrs (
+        old: {
+          nativeBuildInputs = (old.nativeBuildInputs or [ ]) ++ [
+            self.setuptools-scm-git-archive
+          ];
+        });
+
       uvloop = super.uvloop.overridePythonAttrs (
         old: {
           buildInputs = (old.buildInputs or [ ]) ++ lib.optionals stdenv.isDarwin [
