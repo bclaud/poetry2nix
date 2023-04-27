@@ -15451,7 +15451,8 @@
     "setuptools"
   ],
   "requests": [
-    "setuptools"
+    "setuptools",
+    "setuptools-scm"
   ],
   "requests-aws4auth": [
     "setuptools"
