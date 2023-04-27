@@ -18563,7 +18563,8 @@
     "setuptools"
   ],
   "urllib3": [
-    "setuptools"
+    "setuptools",
+    "hatchling"
   ],
   "urlpy": [
     "setuptools"
