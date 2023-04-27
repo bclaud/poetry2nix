@@ -15422,8 +15422,7 @@
     "setuptools"
   ],
   "requests": [
-    "setuptools",
-    "setuptools-scm"
+    "setuptools"
   ],
   "requests-aws4auth": [
     "setuptools"
@@ -18565,6 +18564,7 @@
   ],
   "urllib3": [
     "setuptools",
+    "setuptools-scm",
     "hatchling"
   ],
   "urlpy": [
