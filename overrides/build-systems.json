@@ -6700,7 +6700,8 @@
   ],
   "frozenlist": [
     "cython",
-    "setuptools"
+    "setuptools",
+    "expandvars"
   ],
   "fs": [
     "setuptools"
