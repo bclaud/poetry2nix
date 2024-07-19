@@ -6842,6 +6842,9 @@
     "cython",
     "setuptools"
   ],
+  "faststream": [
+    "hatchling"
+  ],
   "fasttext": [
     "setuptools"
   ],
