@@ -23391,6 +23391,9 @@
     "setuptools",
     "setuptools-scm"
   ],
+  "svcs": [
+    "hatchling"
+  ],
   "svg-path": [
     "setuptools"
   ],
