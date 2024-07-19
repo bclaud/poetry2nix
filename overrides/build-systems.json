@@ -6711,6 +6711,9 @@
   "farama-notifications": [
     "setuptools"
   ],
+  "fast-depends": [
+    "hatchling"
+  ],
   "fast-histogram": [
     "setuptools",
     "setuptools-scm"
