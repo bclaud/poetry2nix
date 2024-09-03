@@ -23684,6 +23684,12 @@
   "tasklib": [
     "setuptools"
   ],
+  "taskiq": [
+    "poetry-core"
+  ],
+  "taskiq-dependencies": [
+    "poetry-core"
+  ],
   "taskw": [
     "setuptools"
   ],
