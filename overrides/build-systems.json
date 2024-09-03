@@ -23687,10 +23687,13 @@
   "taskiq": [
     "poetry-core"
   ],
+  "taskiq-aio-kafka": [
+    "poetry-core"
+  ],
   "taskiq-dependencies": [
     "poetry-core"
   ],
-  "taskiq-aio-kafka": [
+  "taskiq-litestar": [
     "poetry-core"
   ],
   "taskw": [
