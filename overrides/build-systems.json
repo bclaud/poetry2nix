@@ -21663,6 +21663,9 @@
     "setuptools",
     "setuptools-scm"
   ],
+  "saq": [
+    "setuptools"
+  ],
   "sarge": [
     "setuptools"
   ],
