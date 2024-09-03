@@ -11056,6 +11056,9 @@
   "litestar": [
     "hatchling"
   ],
+  "litestar-asyncpg": [
+    "hatchling"
+  ],
   "litestar-saq": [
     "hatchling"
   ],
