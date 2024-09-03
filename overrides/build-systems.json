@@ -11056,6 +11056,9 @@
   "litestar": [
     "hatchling"
   ],
+  "litestar-saq": [
+    "hatchling"
+  ],
   "litestar-svcs": [
     "pdm-backend"
   ],
