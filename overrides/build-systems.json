@@ -23690,6 +23690,9 @@
   "taskiq-dependencies": [
     "poetry-core"
   ],
+  "taskiq-aio-kafka": [
+    "poetry-core"
+  ],
   "taskw": [
     "setuptools"
   ],
